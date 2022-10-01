@@ -1,0 +1,25 @@
+{
+  "name": "brocast",
+  "version": "1.0.0",
+  "description": "brocast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "brocast",
+    "css",
+    "scss",
+    "html"
+  ],
+  "author": "Sergey",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.52.3"
+  }
+}

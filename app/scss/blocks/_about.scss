@@ -1,0 +1,60 @@
+.about {
+  background: url("../img/about-spider-left.png"), url("../img/about-spideer-right.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, bottom right;
+  padding: 200px 0 220px;
+}
+
+.about-wrapper {
+  display: flex;
+}
+
+.about-list {
+  margin-right: 200px;
+  position: relative;
+  .about-list__item {
+    padding:0 0 35px 25px;
+    align-items: center;
+    display: flex;
+    .about-list__item-link {
+      font-size: 32px;
+      color: #161616;
+    }
+  }
+}
+
+.about-list__item--active::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 54px;
+  background: #ff5043;
+  left: 0;
+}
+
+.about__title {
+  font-size: 72px;
+  color: #161616;
+  margin-bottom: 112px;
+}
+
+
+
+.about__right {
+  position: relative;
+}
+
+.about__descr {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  &::before {
+    content:"";
+    position: absolute;
+    width: 2px;
+    height: 178px;
+    background: #434343;
+    left: 0;
+  }
+}

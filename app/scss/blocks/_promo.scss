@@ -1,0 +1,103 @@
+.promo {
+  background-color: #ff5043;
+  background-image: url("../img/promo-spider-left.svg"),url("../img/promo-spaider-right.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom, right top;
+  padding: 225px 0; 
+}
+
+.promo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.promo__content {
+  max-width: 890px;
+  width: 100%;
+}
+
+.promo__title {
+  font-size: 64px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-family: "Aeonik-Light";
+  .promo__title-accent {
+    font-family: "Aeonik-Bold";
+  }
+}
+
+.promo__slogan {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-family: "Aeonik-Light";
+}
+
+//mobile
+
+@media (max-width: 1200px) {
+  .promo__title {
+    font-size: 55px;
+  }
+  .promo-image {
+    width: 52%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .promo__title {
+    font-size: 48px;
+  }
+  .promo-image {
+    width: 45%;
+  }
+}
+
+@media (max-width: 910px) {
+  .promo-image {
+    width: 39%;
+  }
+}
+
+@media (max-width: 810px) {
+  .promo-wrapper {
+    flex-direction: column;
+  }
+  .promo__content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .promo {
+    background-size: 95%;
+  }
+  .promo__title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 630px) {
+  .promo__title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .promo__title {
+    font-size: 35px;
+  }
+  .promo__slogan {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .promo__title {
+    font-size: 27px;
+  }
+  .promo__slogan {
+    font-size: 17px;
+  }
+}

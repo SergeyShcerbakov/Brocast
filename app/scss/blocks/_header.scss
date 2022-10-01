@@ -1,0 +1,50 @@
+.header {
+  position: absolute;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-caption {
+  color: #ffffff;
+  font-size: 36px;
+  margin-right: 80px;
+}
+
+//header
+
+.menu {
+  max-width: 350px;
+  width: 100%;
+
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+}
+
+.menu__item__link {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Aeonik-Bold";
+}
+
+//mobile
+
+@media (max-width: 810px) {
+  .menu-hidden {
+    display: none;
+  }
+}

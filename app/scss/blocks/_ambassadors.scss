@@ -1,0 +1,44 @@
+.ambassadors {
+  background-color: #ff5043;
+  background-image:  url("../img/ambassadors-spider.png");
+  background-position: bottom;
+  padding: 95px 0 186px;
+  background-repeat: no-repeat;
+}
+
+.ambassadors-wrapper {
+  text-align: center;
+  .ambassadors-title {
+    color: #f5f5f5;
+    font-size: 64px;
+  }
+}
+
+.ambassadors__descr {
+  color: #f5f5f5;
+  font-size: 34px;
+}
+
+.form {
+  margin-top: 70px;
+  position: relative;
+}
+
+input::placeholder {
+  color: #f5f5f5;
+  font-weight: bold;
+}
+
+.form__input {
+  display: block;
+  margin: 0 auto;
+  width: 723px;
+  height: 97px;
+  border-radius: 100px;
+  margin-bottom: 30px;
+  border: 5px solid #f5f5f5;
+  background: none;
+  padding: 26px 66px;
+  color: #f5f5f5;
+  outline: none;
+}

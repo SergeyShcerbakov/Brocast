@@ -1,0 +1,21 @@
+.thoughts {
+  background: #161616 url("../img/thoughts.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 244px 0;
+  margin-top: -145px;
+}
+
+.thoughts__text {
+  color: #ff5043;
+  font-size: 28px;
+}
+
+.thoughts__descr {
+  color: #f5f5f5;
+  font-size: 64px;
+  max-width: 1100px;
+  span {
+    color: #ff5043;
+  }
+}

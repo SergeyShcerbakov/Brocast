@@ -1,0 +1,52 @@
+.founder {
+  background-image: url("../img/founder-spider.svg");
+  background-repeat: no-repeat;
+  background-position: right  ;
+  background-position-y: bottom;
+  padding: 270px 0 220px;
+  margin-top: -70px;
+}
+
+.founder-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.founder-image {
+  margin-right: 140px;
+}
+
+.founder-image__img {
+  width: 100%;
+}
+
+.founder-text {
+  font-weight: 700;
+}
+
+.founder__caption {
+  color: #ff5043;
+}
+
+.founder__title {
+  font-size: 54px;
+  margin-bottom: 63px;
+}
+
+.founder__descr {
+  font-size: 22px;
+  font-family: "Aeonik-Light";
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 25px;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 195px;
+    background: #ff5043;
+    left: 0;
+  }
+}
