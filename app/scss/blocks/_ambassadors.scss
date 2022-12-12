@@ -42,3 +42,11 @@ input::placeholder {
   color: #f5f5f5;
   outline: none;
 }
+
+//mobile
+
+@media (max-width: 750px) {
+  input.form__input {
+    width: 80%;
+  }
+}
