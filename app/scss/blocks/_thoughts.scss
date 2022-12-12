@@ -27,3 +27,15 @@
     padding: 210px 0;
   }
 }
+
+@media (max-width: 700px) {
+  .thoughts {
+    padding: 167px 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .thoughts {
+    padding: 120px 0;
+  }
+}

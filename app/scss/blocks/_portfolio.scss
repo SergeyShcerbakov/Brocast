@@ -87,7 +87,7 @@
   .portfolio {
     padding: 200px 0;
   }
-  
+
   .portfolio__title {
     font-size: 45px;
   }
@@ -160,6 +160,12 @@
 
   .portfolio__item-title {
     font-size: 22px;
+  }
+}
+
+@media (max-width: 700px) {
+  img.portfolio__image {
+    width: 90%;
   }
 }
 

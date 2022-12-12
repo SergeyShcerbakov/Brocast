@@ -72,3 +72,13 @@
     margin-right: -135px;
   }
 }
+
+@media (max-width: 640px) {
+  .about__left {
+    margin-right: -28%;
+  }
+
+  .about__descr {
+    font-size: 24px;
+  }
+}

@@ -50,3 +50,11 @@
     left: 0;
   }
 }
+
+//mobile
+
+@media (max-width: 580px) {
+  .founder-image {
+    margin-right: 45px;
+  }
+}
