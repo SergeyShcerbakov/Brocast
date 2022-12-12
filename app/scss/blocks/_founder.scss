@@ -58,3 +58,53 @@
     margin-right: 45px;
   }
 }
+
+@media (max-width: 540px) {
+  .founder {
+    padding: 246px 0 185px;
+  }
+
+  .founder__title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .founder {
+    padding: 218px 0 185px;
+  }
+
+  .founder__descr {
+    font-size: 18px;
+    margin-top: -15%;
+  }
+
+  .founder-image {
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 425px) {
+  .founder__descr {
+    font-size: 14px;
+  }
+
+  .founder__title {
+    font-size: 33px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 368px) {
+  .founder {
+    padding: 140px 0 185px;
+  }
+  
+  .founder__title {
+    font-size: 24px;
+  }
+
+  .founder-image {
+    margin-right: 23px;
+  }
+}

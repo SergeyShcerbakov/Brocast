@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 501px) {
+  html {
+    overflow-y: hidden;
+  }
+}
 @font-face {
   font-family: "Aeonik-Regular";
   src: url("../../fonts/Aeonik-Regular.otf");
@@ -401,6 +406,19 @@ a {
     font-size: 12px;
   }
 }
+@media (max-width: 410px) {
+  .portfolio {
+    padding: 30px 0;
+  }
+  .portfolio__item-descr {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 381px) {
+  .portfolio__item-title {
+    font-size: 17px;
+  }
+}
 .founder {
   background-image: url("../img/founder-spider.svg");
   background-repeat: no-repeat;
@@ -454,6 +472,51 @@ a {
   left: 0;
 }
 
+@media (max-width: 580px) {
+  .founder-image {
+    margin-right: 45px;
+  }
+}
+@media (max-width: 540px) {
+  .founder {
+    padding: 246px 0 185px;
+  }
+  .founder__title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .founder {
+    padding: 218px 0 185px;
+  }
+  .founder__descr {
+    font-size: 18px;
+    margin-top: -15%;
+  }
+  .founder-image {
+    margin-right: 80px;
+  }
+}
+@media (max-width: 425px) {
+  .founder__descr {
+    font-size: 14px;
+  }
+  .founder__title {
+    font-size: 33px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 368px) {
+  .founder {
+    padding: 140px 0 185px;
+  }
+  .founder__title {
+    font-size: 24px;
+  }
+  .founder-image {
+    margin-right: 23px;
+  }
+}
 .thoughts {
   background: #161616 url("../img/thoughts.png");
   background-repeat: no-repeat;
@@ -484,6 +547,11 @@ a {
 @media (max-width: 700px) {
   .thoughts {
     padding: 167px 0;
+  }
+}
+@media (max-width: 580px) {
+  .thoughts {
+    padding: 120px 0;
   }
 }
 .about {
