@@ -73,7 +73,7 @@ exports.ico = iconmin;
 exports.dev = series(
   buildStyles,
   cssdist,
-  imgmin,
+  // imgmin,
   iconmin,
   include
 )

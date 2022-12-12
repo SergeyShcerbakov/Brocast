@@ -87,6 +87,7 @@
   .portfolio {
     padding: 200px 0;
   }
+  
   .portfolio__title {
     font-size: 45px;
   }
@@ -105,12 +106,15 @@
   .portfolio__title {
     font-size: 30px;
   }
+
   .portfolio__descr {
     font-size: 18px;
   }
+
   .portfolio__item-title {
     font-size: 35px;
   }
+
   .portfolio__item-descr {
     font-size: 20px;
   }
@@ -123,15 +127,22 @@
 }
 
 @media (max-width: 771px) {
+  .portfolio {
+    padding: 60px 0;
+  }
+
   .portfolio__title {
     font-size: 27px;
   }
+
   .portfolio__descr {
     font-size: 16px;
   }
+
   .portfolio__item-title {
     font-size: 28px;
   }
+  
   .portfolio__item-descr {
     font-size: 18px;
     margin-bottom: 60px;
@@ -142,9 +153,11 @@
   .portfolio {
     padding: 100px 0;
   }
+
   .portfolio__item-descr {
     font-size: 15px;
   }
+
   .portfolio__item-title {
     font-size: 22px;
   }

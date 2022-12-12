@@ -192,6 +192,11 @@ a {
     margin-bottom: 20px;
   }
 }
+@media (max-width: 770px) {
+  .promo {
+    padding: 188px 0;
+  }
+}
 @media (max-width: 700px) {
   .promo {
     background-size: 95%;
@@ -341,6 +346,9 @@ a {
   }
 }
 @media (max-width: 771px) {
+  .portfolio {
+    padding: 60px 0;
+  }
   .portfolio__title {
     font-size: 27px;
   }
@@ -463,6 +471,11 @@ a {
   color: #ff5043;
 }
 
+@media (max-width: 770px) {
+  .thoughts {
+    padding: 210px 0;
+  }
+}
 .about {
   background: url("../img/about-spider-left.png"), url("../img/about-spideer-right.png");
   background-repeat: no-repeat, no-repeat;
@@ -522,6 +535,11 @@ a {
   left: 0;
 }
 
+@media (max-width: 705px) {
+  .about__left {
+    margin-right: -135px;
+  }
+}
 .ambassadors {
   background-color: #ff5043;
   background-image: url("../img/ambassadors-spider.png");
@@ -567,6 +585,11 @@ input::placeholder {
   outline: none;
 }
 
+@media (max-width: 750px) {
+  input.form__input {
+    width: 80%;
+  }
+}
 .footer {
   margin-top: -101px;
   padding: 40px 0;

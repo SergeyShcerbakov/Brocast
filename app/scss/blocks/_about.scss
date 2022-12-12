@@ -58,3 +58,17 @@
     left: 0;
   }
 }
+
+//mobile
+
+@media (max-width: 751px) {
+  .about__left {
+    margin-right: -12%;
+  }
+}
+
+@media (max-width: 705px) {
+  .about__left {
+    margin-right: -135px;
+  }
+}
